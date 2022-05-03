@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fix to get HTML5 semantic elements working in old versions of IE -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Style & Icons -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/47dd71163e.js" crossorigin="anonymous"></script>
+    
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <!-- Favicon https://favicon.io/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    
+    <!-- Page Title -->
+    <title>Memory Game</title>
+    <!-- Author -->
+    <meta name="author" content="Raul Pop">
+    <!-- Description -->
+    <meta name="description" content="simple memory game with webdevelopment icons"> 
+    <!-- Keywords -->
+    <meta name="keywords" content="memory, game, webdevelopment, html, css, javascript, react, vue, node, nodejs, visual studio code">
+  </head>
+
+  <body>
+    <header>
+      <h1>Memory Game</h1>
+      <p>Matching games are games that require players to match similar elements. Turn over two cards at a time, with the goal of turning over a matching pair, by using your memory.</p>
+    </header>
+
+    <div class="wrapper">
+      <ul class="cards">
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-1.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-2.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-3.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-4.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-5.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-6.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-5.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-6.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-1.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-2.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-3.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-4.png" alt="card-img">
+          </div>
+        </li>
+        <div class="details">
+          <p class="time">Time: <span><b>60</b>s</span></p>
+          <p class="flips">Flips: <span><b>0</b></span></p>
+          <button>Refresh</button>
+        </div>
+      </ul>
+    </div>
+
+  </body>
+</html>
