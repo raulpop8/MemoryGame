@@ -3,7 +3,7 @@
 
 ---
 
-You can see the project live here: <a href="https://raulpop.ro/projects/memorygame/" target=_blank>Weather</a>
+You can see the project live here: <a href="https://raulpop.ro/projects/memorygame/" target=_blank>Memory Game</a>
 
 <h2>Updates?</h2>
 There probably will be minor changes for this project. As I learn new things and get more confortable with coding, I'll probably change thinks around.
